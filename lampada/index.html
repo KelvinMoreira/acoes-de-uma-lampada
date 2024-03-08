@@ -8,6 +8,27 @@
     <title>Lâmpada</title>
 </head>
 <body>
-    
+
+    <header>
+        <h1>VANILLA JS</h1>
+    </header>
+
+    <section>
+        <div class="containerimage">
+            <img id="imageLampada" src="img/desligada.jpg" alt="" srcset="" width="180px" height="230px" ondblclick="quebrarLampada()" onmouseenter="ligarLampada()" onmouseleave="desligarLampada()">
+        </div>
+
+        <div class="containerbuttons">
+            <div>
+                <button type="button" class="styleButton" id="botaoLigar" 
+                onclick="ligarLampada()" onmou>Ligar</button>
+            </div>
+
+            <div>
+                <button type="button" class="styleButton" id="botaoDesligar" 
+                onclick="desligarLampada()">Desligar</button>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
